@@ -35,7 +35,7 @@ html, body {
 
 .hero__bg {
   position:absolute; inset:0; z-index:0;
-  background: url('hero-bg.png') center center / cover no-repeat;
+  background: url('preview_cover.png') center center / cover no-repeat;
   filter: brightness(0.55) saturate(0.7);
   animation: slowZoom 30s ease-in-out infinite alternate;
 }
