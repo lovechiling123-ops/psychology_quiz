@@ -225,6 +225,8 @@ html, body {
 #quiz-image {
   width: 100%;
   height: auto;
+  max-height: 35vh;
+  object-fit: contain;
   display: none; /* 有圖片時再改為 block */
   border-radius: 8px;
 }
