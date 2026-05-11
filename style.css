@@ -203,15 +203,26 @@ html, body {
   text-shadow:0 0 20px rgba(80,180,200,0.2);
 }
 
-/* Quiz Image */
+/* Quiz Image — Cinematic Banner */
 .quiz-image-placeholder {
-  width: 100%;
-  background: rgba(30, 45, 52, 0.4);
-  border: 1px solid rgba(120, 220, 232, 0.15);
-  border-radius: 8px;
-  margin-bottom: 2rem;
-  overflow: hidden;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-bottom: 1.5rem;
   position: relative;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.quiz-image-placeholder::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 50%;
+  background: linear-gradient(to bottom, transparent, #0a1216);
+  pointer-events: none;
+  z-index: 1;
 }
 
 .image-placeholder-text {
@@ -224,11 +235,9 @@ html, body {
 
 #quiz-image {
   width: 100%;
-  height: auto;
-  max-height: 35vh;
-  object-fit: contain;
-  display: none; /* 有圖片時再改為 block */
-  border-radius: 8px;
+  height: 38vh;
+  object-fit: cover;
+  display: none;
 }
 
 .quiz-scenario {
