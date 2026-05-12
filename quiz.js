@@ -226,16 +226,16 @@ startBtn.addEventListener('click', () => {
 
 // ===== Question Images =====
 const questionImages = [
-  'preview_q1.png',   // 1. 啟程：純白空間與神祕存在
-  'preview_q2.png',   // 2. 抵達：陌生的荒野森林
-  'preview_q3.png',   // 3. 遭遇：倒在路邊的商人
-  'preview_q4.png',   // 4. 探索：分歧的古老地圖
-  'preview_q5.png',   // 5. 誘惑：神祕的泉水
-  'preview_q6.png',   // 6. 衝突：城鎮裡的爭端
-  'preview_q7.png',   // 7. 逆境：被困的深淵
-  'preview_q8.png',   // 8. 抉擇：被隱瞞的真相
-  'preview_q9.png',   // 9. 決戰：面對最終的宿敵
-  'preview_q10.png'   // 10. 歸宿：和平之後
+  'banner_q1.png',   // 1. 啟程：純白空間與神祕存在
+  'banner_q2.png',   // 2. 抵達：陌生的荒野森林
+  'banner_q3.png',   // 3. 遭遇：倒在路邊的商人
+  'banner_q4.png',   // 4. 探索：分歧的古老地圖
+  'banner_q5.png',   // 5. 誘惑：神祕的泉水
+  'banner_q6.png',   // 6. 衝突：城鎮裡的爭端
+  'banner_q7.png',   // 7. 逆境：被困的深淵
+  'banner_q8.png',   // 8. 抉擇：被隱瞞的真相
+  'banner_q9.png',   // 9. 決戰：面對最終的宿敵
+  'banner_q10.png'   // 10. 歸宿：和平之後
 ];
 
 // ===== Render Question =====
