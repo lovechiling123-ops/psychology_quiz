@@ -209,7 +209,7 @@ html, body {
 
 /* Banner Image */
 .quiz-banner {
-  width:100%; height:clamp(180px, 30vh, 280px);
+  width:100%; height:clamp(220px, 35vh, 340px);
   border-radius:12px; overflow:hidden;
   margin-bottom:1.2rem; flex-shrink:0;
   position:relative;
