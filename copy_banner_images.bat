@@ -7,7 +7,7 @@ del "hero-bg.png" 2>nul
 
 echo Copying new banner images...
 copy "C:\Users\tokchou\.gemini\antigravity\brain\5670ef3f-ef2c-4b41-a5f2-b5c19080ddd7\banner_cover_*.png" "banner_cover.png" /Y
-copy "C:\Users\tokchou\.gemini\antigravity\brain\5670ef3f-ef2c-4b41-a5f2-b5c19080ddd7\banner_q1_*.png" "banner_q1.png" /Y
+copy "C:\Users\tokchou\.gemini\antigravity\brain\5670ef3f-ef2c-4b41-a5f2-b5c19080ddd7\banner_q1_widescreen_*.png" "banner_q1.png" /Y
 copy "C:\Users\tokchou\.gemini\antigravity\brain\5670ef3f-ef2c-4b41-a5f2-b5c19080ddd7\banner_q2_*.png" "banner_q2.png" /Y
 copy "C:\Users\tokchou\.gemini\antigravity\brain\5670ef3f-ef2c-4b41-a5f2-b5c19080ddd7\banner_q3_*.png" "banner_q3.png" /Y
 copy "C:\Users\tokchou\.gemini\antigravity\brain\5670ef3f-ef2c-4b41-a5f2-b5c19080ddd7\banner_q4_*.png" "banner_q4.png" /Y
