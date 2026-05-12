@@ -177,17 +177,17 @@ html, body {
 }
 
 .quiz-container {
-  max-width:680px; width:100%; height:100%;
+  max-width:750px; width:100%; height:100%;
   display:flex; flex-direction:column;
   justify-content:center;
-  padding:1rem 2rem;
+  padding:1.5rem 2.5rem;
   position:relative; z-index:2;
 }
 
 /* Progress Bar */
 .progress-bar {
-  width:100%; height:3px; background:rgba(120,220,232,0.1);
-  border-radius:2px; margin-bottom:0.8rem; overflow:hidden; flex-shrink:0;
+  width:100%; height:4px; background:rgba(120,220,232,0.1);
+  border-radius:2px; margin-bottom:1.2rem; overflow:hidden; flex-shrink:0;
 }
 .progress-bar__fill {
   height:100%; width:0%;
@@ -196,22 +196,22 @@ html, body {
 }
 
 /* Header */
-.quiz-header { text-align:center; margin-bottom:0.6rem; flex-shrink:0; }
+.quiz-header { text-align:center; margin-bottom:0.8rem; flex-shrink:0; }
 .quiz-step {
-  font-size:0.7rem; letter-spacing:0.3em;
-  color:rgba(120,220,232,0.6); margin-bottom:0.2rem; text-transform:uppercase;
+  font-size:0.8rem; letter-spacing:0.35em;
+  color:rgba(120,220,232,0.6); margin-bottom:0.3rem; text-transform:uppercase;
 }
 .quiz-chapter {
   font-family:'Noto Serif TC', serif; font-weight:700;
-  font-size:clamp(1.05rem, 2.2vw, 1.35rem); color:#e8eff3;
+  font-size:clamp(1.25rem, 2.8vw, 1.6rem); color:#e8eff3;
   letter-spacing:0.08em; text-shadow:0 0 20px rgba(80,180,200,0.2);
 }
 
 /* Banner Image */
 .quiz-banner {
-  width:100%; height:clamp(100px, 16vh, 150px);
-  border-radius:10px; overflow:hidden;
-  margin-bottom:0.8rem; flex-shrink:0;
+  width:100%; height:clamp(120px, 22vh, 180px);
+  border-radius:12px; overflow:hidden;
+  margin-bottom:1.2rem; flex-shrink:0;
   position:relative;
   background:rgba(30,45,52,0.4);
   border:1px solid rgba(120,220,232,0.1);
@@ -223,16 +223,16 @@ html, body {
 
 /* Scenario */
 .quiz-scenario {
-  font-size:clamp(0.85rem, 1.5vw, 0.95rem); line-height:1.65;
+  font-size:clamp(0.95rem, 1.8vw, 1.1rem); line-height:1.7;
   color:rgba(200,215,222,0.8); text-align:center;
-  margin-bottom:0.8rem; padding:0 0.5rem; flex-shrink:0;
+  margin-bottom:1.2rem; padding:0 0.5rem; flex-shrink:0;
 }
 
 /* Option Cards */
-.options-list { display:flex; flex-direction:column; gap:0.45rem; flex-shrink:0; }
+.options-list { display:flex; flex-direction:column; gap:0.6rem; flex-shrink:0; }
 .option-card {
-  display:flex; align-items:flex-start; gap:0.7rem;
-  padding:0.6rem 1rem;
+  display:flex; align-items:flex-start; gap:0.9rem;
+  padding:0.8rem 1.2rem;
   background:rgba(30,45,52,0.5);
   border:1px solid rgba(120,220,232,0.1);
   border-radius:8px; cursor:pointer;
@@ -256,19 +256,19 @@ html, body {
 }
 .option-label {
   font-family:'Noto Serif TC', serif; font-weight:700;
-  font-size:0.95rem; color:rgba(120,220,232,0.8);
-  min-width:1.3rem; padding-top:1px;
+  font-size:1.1rem; color:rgba(120,220,232,0.8);
+  min-width:1.5rem; padding-top:1px;
 }
 .option-text {
-  font-size:clamp(0.83rem, 1.5vw, 0.92rem);
-  line-height:1.55; color:rgba(200,215,222,0.85);
+  font-size:clamp(0.95rem, 1.8vw, 1.05rem);
+  line-height:1.6; color:rgba(200,215,222,0.85);
 }
 
 /* Next Button */
 .btn-next {
-  display:block; margin:0.8rem auto 0; padding:0.6rem 2rem;
+  display:block; margin:1.2rem auto 0; padding:0.8rem 2.5rem;
   font-family:'Noto Serif TC', serif; font-weight:700;
-  font-size:0.9rem; letter-spacing:0.2em; color:#c8d7de;
+  font-size:1.05rem; letter-spacing:0.2em; color:#c8d7de;
   background:linear-gradient(145deg, #3a4a50, #2a3438);
   border:1px solid rgba(120,220,232,0.2); border-radius:4px;
   cursor:pointer; flex-shrink:0;
