@@ -226,7 +226,7 @@ startBtn.addEventListener('click', () => {
 
 // ===== Question Images =====
 const questionImages = [
-  'banner_q1.png',   // 1. 啟程：純白空間與神祕存在
+  'file:///c:/Users/tokchou/.gemini/antigravity/brain/5670ef3f-ef2c-4b41-a5f2-b5c19080ddd7/banner_q1_widescreen_1778588851005.png',   // 1. 啟程：純白空間與神祕存在
   'banner_q2.png',   // 2. 抵達：陌生的荒野森林
   'banner_q3.png',   // 3. 遭遇：倒在路邊的商人
   'banner_q4.png',   // 4. 探索：分歧的古老地圖
