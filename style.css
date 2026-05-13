@@ -209,7 +209,7 @@ html, body {
 
 /* Banner Image */
 .quiz-banner {
-  width:100%; height:clamp(220px, 35vh, 340px);
+  width:100%; height:auto; aspect-ratio: 5 / 1;
   border-radius:12px; overflow:hidden;
   margin-bottom:1.2rem; flex-shrink:0;
   position:relative;
@@ -359,7 +359,7 @@ html, body {
   .btn-stone { padding:0.85rem 2.2rem; }
 
   .quiz-container { padding:0.8rem 1.2rem; }
-  .quiz-banner { height:clamp(80px, 14vh, 130px); margin-bottom:0.6rem; }
+  .quiz-banner { height:auto; margin-bottom:0.6rem; }
   .quiz-header { margin-bottom:0.5rem; }
   .quiz-chapter { font-size:1.1rem; }
   .quiz-scenario { margin-bottom:0.6rem; font-size:0.88rem; padding:0; }
@@ -374,7 +374,7 @@ html, body {
   .hero__title { letter-spacing:0.08em; }
   .btn-stone { padding:0.75rem 1.8rem; letter-spacing:0.15em; }
   .quiz-container { padding:0.6rem 0.8rem; }
-  .quiz-banner { height:clamp(70px, 12vh, 100px); margin-bottom:0.5rem; border-radius:8px; }
+  .quiz-banner { height:auto; margin-bottom:0.5rem; border-radius:8px; }
   .quiz-header { margin-bottom:0.3rem; }
   .quiz-step { font-size:0.6rem; margin-bottom:0.1rem; }
   .quiz-chapter { font-size:0.95rem; }
