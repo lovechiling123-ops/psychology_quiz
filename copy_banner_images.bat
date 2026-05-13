@@ -14,7 +14,7 @@ copy "C:\Users\tokchou\.gemini\antigravity\brain\fb45f356-efe2-45e1-96af-318e15c
 copy "C:\Users\tokchou\.gemini\antigravity\brain\fb45f356-efe2-45e1-96af-318e15cf0ece\banner_q5_widescreen_1778682616026.png" "banner_q5.png" /Y
 copy "C:\Users\tokchou\.gemini\antigravity\brain\fb45f356-efe2-45e1-96af-318e15cf0ece\banner_q6_widescreen_1778682638408.png" "banner_q6.png" /Y
 copy "C:\Users\tokchou\.gemini\antigravity\brain\fb45f356-efe2-45e1-96af-318e15cf0ece\banner_q7_widescreen_1778683204777.png" "banner_q7.png" /Y
-copy "C:\Users\tokchou\.gemini\antigravity\brain\fb45f356-efe2-45e1-96af-318e15cf0ece\banner_q8_widescreen_1778683222520.png" "banner_q8.png" /Y
+copy "C:\Users\tokchou\.gemini\antigravity\brain\fb45f356-efe2-45e1-96af-318e15cf0ece\banner_q8_v2_widescreen_1778683689573.png" "banner_q8.png" /Y
 copy "C:\Users\tokchou\.gemini\antigravity\brain\fb45f356-efe2-45e1-96af-318e15cf0ece\banner_q9_widescreen_1778683239001.png" "banner_q9.png" /Y
 copy "C:\Users\tokchou\.gemini\antigravity\brain\fb45f356-efe2-45e1-96af-318e15cf0ece\banner_q10_widescreen_1778683256120.png" "banner_q10.png" /Y
 
