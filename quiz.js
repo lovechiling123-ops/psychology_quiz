@@ -109,84 +109,84 @@ const results = {
     subtitle: "戰鬥中帶有謀略",
     primary: "勇氣／行動", secondary: "智慧",
     desc: "你擁有一種極為罕見的平穩，習慣在混亂的局勢中梳理出清晰的脈絡。你不喜歡盲目的衝動，對你而言，真正的強大是建立在「絕對的自我掌控」之上。在他人眼中，你是高壓環境下依然能保持優雅的異類，這源於你對行動效率的極致追求，以及對目標近乎冷酷的執行力。",
-    image: "file:///C:/Users/tokchou/.gemini/antigravity/brain/4dcbe8fc-79c0-4e3e-a67f-c35e4ef31a99/job_magic_swordsman_duo_1778744885876.png"
+    image: "result_magic_swordsman.png"
   },
   "B-D": {
     job: "聖騎士",
     subtitle: "正直且慈悲的守護者",
     primary: "勇氣／行動", secondary: "感性",
     desc: "你的行動力深受內心強大的信念驅動。對你來說，力量並非為了征服，而是為了守護。你擁有一種與生俱來的責任感，習慣將他人的安危置於自身之前。這種特質讓你成為團隊中最堅實的盾牌，你的價值觀並非來自於獲得，而是來自於「被需要」時展現出的那份安定感。",
-    image: "file:///C:/Users/tokchou/.gemini/antigravity/brain/4dcbe8fc-79c0-4e3e-a67f-c35e4ef31a99/job_paladin_duo_1778744912064.png"
+    image: "result_paladin.png"
   },
   "B-C": {
     job: "狂戰士",
     subtitle: "極致的行動與爆發",
     primary: "勇氣／行動", secondary: "敏銳",
     desc: "你傾向於完全活在當下，追求最直接、最純粹的生命脈動。面對未知的恐懼，你的身體反應往往快過思維，這並非魯莽，而是一種對本能的絕對信任。你擅長在極端環境中進入一種心無旁騖的狀態，將所有的意志集中於眼前的突破口，那份爆發力是來自於你靈魂深處對自由的渴望。",
-    image: "file:///C:/Users/tokchou/.gemini/antigravity/brain/4dcbe8fc-79c0-4e3e-a67f-c35e4ef31a99/job_berserker_duo_1778744924912.png"
+    image: "result_berserker.png"
   },
   "A-B": {
     job: "戰略家",
     subtitle: "前線的冷靜指揮官",
     primary: "智慧／謀略", secondary: "勇氣",
     desc: "你習慣在行動前先在大腦中模擬出無數個可能的未來。比起運氣，你更相信精密的布局與風險管理。你具備將抽象理論轉化為實際成果的膽識，這種特質代表你渴望掌控全局。你不隨波逐流，對你而言，最完美的勝利是當一切都如你所料地發生。",
-    image: "file:///C:/Users/tokchou/.gemini/antigravity/brain/4dcbe8fc-79c0-4e3e-a67f-c35e4ef31a99/job_strategist_duo_1778750094710.png"
+    image: "result_strategist.png"
   },
   "A-D": {
     job: "大賢者",
     subtitle: "通曉古今的智者",
     primary: "智慧／謀略", secondary: "感性",
     desc: "你追求的不只是單純的知識，更是對世間萬物運行規律的體悟。你擁有廣闊的視野，能理解事物背後錯綜複雜的因果與連結。你習慣以旁觀者的視角冷靜觀察，卻又能以體恤的心態理解每個生命背後的無奈。這種智慧的廣度，讓你成為指引他人迷途的星光。",
-    image: "file:///C:/Users/tokchou/.gemini/antigravity/brain/4dcbe8fc-79c0-4e3e-a67f-c35e4ef31a99/job_great_sage_duo_1778750109581.png"
+    image: "result_great_sage.png"
   },
   "A-C": {
     job: "煉金術師",
     subtitle: "精密計算的創造者",
     primary: "智慧／謀略", secondary: "敏銳",
     desc: "你的思維靈活且不拘一格，對事物的運作機制充滿好奇。你擅長在有限的條件下，透過精確的計算與觀察找出非傳統的解決方案。你追求的是創新與效率的平衡，性格中帶有一種獨立的工匠精神，解決難題所帶來的愉悅感，對你而言遠比外界的掌聲更真實。",
-    image: "file:///C:/Users/tokchou/.gemini/antigravity/brain/4dcbe8fc-79c0-4e3e-a67f-c35e4ef31a99/job_alchemist_duo_1778750125467.png"
+    image: "result_alchemist.png"
   },
   "C-A": {
     job: "影之暗殺者",
     subtitle: "極致效率的專家",
     primary: "敏銳／生存", secondary: "智慧",
     desc: "你是極致的效率主義者，性格內斂且冷靜。你習慣處理海量的細節資訊，並從中找出關鍵的一擊。你擁有一種強大的精神屏障，不輕易受外界情緒干擾。對你而言，最好的行動是寂靜無聲的，你追求的是對局勢的精準掌控，以及在完成目標後優雅退場的自由。",
-    image: "file:///C:/Users/tokchou/.gemini/antigravity/brain/4dcbe8fc-79c0-4e3e-a67f-c35e4ef31a99/job_assassin_duo_1778750766525.png"
+    image: "result_assassin.png"
   },
   "C-B": {
     job: "荒野遊俠",
     subtitle: "在邊境生存的開拓者",
     primary: "敏銳／生存", secondary: "勇氣",
     desc: "你的意志力具有極強的韌性，對於陌生環境有著天生的適應能力。你相信命運掌握在自己手中，不需要依賴他人的評價來定義自我。你追求的是一種不受拘束的生存空間，雖然外表顯得孤傲，但內心對於自己的目標有著極高的堅定度，是個能獨自在荒野中走出路徑的開拓者。",
-    image: "file:///C:/Users/tokchou/.gemini/antigravity/brain/4dcbe8fc-79c0-4e3e-a67f-c35e4ef31a99/job_ranger_duo_1778750786873.png"
+    image: "result_ranger.png"
   },
   "C-D": {
     job: "幻影盜賊",
     subtitle: "自由奔放的冒險家",
     primary: "敏銳／生存", secondary: "感性",
     desc: "你擁有極高的敏感度與應變能力，能根據環境的細微變化迅速調整自己的姿態。你對人性有著直覺般的理解，並將生命視為一場華麗的遊戲。你享受過程中的變換、驚喜與隨性，不受死板的教條。對你而言，自由奔放的生活體驗，才是冒險中最珍貴的戰利品。",
-    image: "file:///C:/Users/tokchou/.gemini/antigravity/brain/4dcbe8fc-79c0-4e3e-a67f-c35e4ef31a99/job_thief_duo_1778750799879.png"
+    image: "result_thief.png"
   },
   "D-B": {
     job: "聖職者",
     subtitle: "心靈強大的療癒者",
     primary: "感性／同理", secondary: "勇氣",
     desc: "你的內在能量來自於對生命的敬畏。你擁有一種承擔他人痛苦的勇氣，並將撫慰受傷的心靈視為最高使命。你的人格充滿了溫暖的張力，在面對黑暗時，你並非不恐懼，而是因為你選擇了守護心中的光亮而變得強大。你是夥伴眼中最溫柔、也最不可撼動的存在。",
-    image: "file:///C:/Users/tokchou/.gemini/antigravity/brain/4dcbe8fc-79c0-4e3e-a67f-c35e4ef31a99/job_cleric_duo_1778750814072.png"
+    image: "result_cleric.png"
   },
   "D-A": {
     job: "占星術師",
     subtitle: "感知命運的先知",
     primary: "感性／同理", secondary: "智慧",
     desc: "你習慣透過直覺來感知周遭微小的徵兆，再用冷靜的思維將碎片拼湊成完整的圖像。你對於未知事物有著高度的包容力，並相信萬物皆有其運行的節奏。你追求的是與世界的秩序達成深層共鳴，這種超脫的精神追求，讓你的氣質中帶有一種神秘且安定的力量。",
-    image: "file:///C:/Users/tokchou/.gemini/antigravity/brain/4dcbe8fc-79c0-4e3e-a67f-c35e4ef31a99/job_astrologer_duo_1778750845579.png"
+    image: "result_astrologer.png"
   },
   "D-C": {
     job: "吟遊詩人",
     subtitle: "流浪世界的藝術靈魂",
     primary: "感性／同理", secondary: "敏銳",
     desc: "你對情感與美感的流動極為敏銳，擅長透過故事或藝術來影響他人的心靈。你扮演著連結者的角色，能輕易地看穿他人的防備，並用最輕巧的方式化解對立。你追求的是豐富的生命體驗與靈魂的自由，對你而言，這趟旅程中留下的感動與旋律，就是永恆。",
-    image: "file:///C:/Users/tokchou/.gemini/antigravity/brain/4dcbe8fc-79c0-4e3e-a67f-c35e4ef31a99/job_bard_duo_1778750868523.png"
+    image: "result_bard.png"
   }
 };
 
