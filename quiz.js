@@ -108,19 +108,22 @@ const results = {
     job: "魔劍士",
     subtitle: "戰鬥中帶有謀略",
     primary: "勇氣／行動", secondary: "智慧",
-    desc: "你擁有一種極為罕見的平穩，習慣在混亂的局勢中梳理出清晰的脈絡。你不喜歡盲目的衝動，對你而言，真正的強大是建立在「絕對的自我掌控」之上。在他人眼中，你是高壓環境下依然能保持優雅的異類，這源於你對行動效率的極致追求，以及對目標近乎冷酷的執行力。"
+    desc: "你擁有一種極為罕見的平穩，習慣在混亂的局勢中梳理出清晰的脈絡。你不喜歡盲目的衝動，對你而言，真正的強大是建立在「絕對的自我掌控」之上。在他人眼中，你是高壓環境下依然能保持優雅的異類，這源於你對行動效率的極致追求，以及對目標近乎冷酷的執行力。",
+    image: "file:///C:/Users/tokchou/.gemini/antigravity/brain/4dcbe8fc-79c0-4e3e-a67f-c35e4ef31a99/job_magic_swordsman_duo_1778744885876.png"
   },
   "B-D": {
     job: "聖騎士",
     subtitle: "正直且慈悲的守護者",
     primary: "勇氣／行動", secondary: "感性",
-    desc: "你的行動力深受內心強大的信念驅動。對你來說，力量並非為了征服，而是為了守護。你擁有一種與生俱來的責任感，習慣將他人的安危置於自身之前。這種特質讓你成為團隊中最堅實的盾牌，你的價值觀並非來自於獲得，而是來自於「被需要」時展現出的那份安定感。"
+    desc: "你的行動力深受內心強大的信念驅動。對你來說，力量並非為了征服，而是為了守護。你擁有一種與生俱來的責任感，習慣將他人的安危置於自身之前。這種特質讓你成為團隊中最堅實的盾牌，你的價值觀並非來自於獲得，而是來自於「被需要」時展現出的那份安定感。",
+    image: "file:///C:/Users/tokchou/.gemini/antigravity/brain/4dcbe8fc-79c0-4e3e-a67f-c35e4ef31a99/job_paladin_duo_1778744912064.png"
   },
   "B-C": {
     job: "狂戰士",
     subtitle: "極致的行動與爆發",
     primary: "勇氣／行動", secondary: "敏銳",
-    desc: "你傾向於完全活在當下，追求最直接、最純粹的生命脈動。面對未知的恐懼，你的身體反應往往快過思維，這並非魯莽，而是一種對本能的絕對信任。你擅長在極端環境中進入一種心無旁騖的狀態，將所有的意志集中於眼前的突破口，那份爆發力是來自於你靈魂深處對自由的渴望。"
+    desc: "你傾向於完全活在當下，追求最直接、最純粹的生命脈動。面對未知的恐懼，你的身體反應往往快過思維，這並非魯莽，而是一種對本能的絕對信任。你擅長在極端環境中進入一種心無旁騖的狀態，將所有的意志集中於眼前的突破口，那份爆發力是來自於你靈魂深處對自由的渴望。",
+    image: "file:///C:/Users/tokchou/.gemini/antigravity/brain/4dcbe8fc-79c0-4e3e-a67f-c35e4ef31a99/job_berserker_duo_1778744924912.png"
   },
   "A-B": {
     job: "戰略家",
@@ -322,17 +325,28 @@ function showResult() {
   const key = `${primary}-${secondary}`;
   const result = results[key];
 
+  const imgContainer = document.getElementById('result-image-container');
+  const imgElement = document.getElementById('result-image');
+
   if (!result) {
     // Fallback: if somehow no match, show primary info
     document.getElementById('result-job').textContent = '神秘旅人';
     document.getElementById('result-subtitle').textContent = '無法被歸類的靈魂';
     document.getElementById('result-attrs').textContent = `主屬性：${primary} ／ 次屬性：${secondary}`;
     document.getElementById('result-desc').textContent = '你的靈魂軌跡超越了既定的分類，是一個獨一無二的存在。';
+    if(imgContainer) imgContainer.style.display = 'none';
   } else {
     document.getElementById('result-job').textContent = result.job;
     document.getElementById('result-subtitle').textContent = result.subtitle;
     document.getElementById('result-attrs').textContent = `主屬性：${result.primary} ／ 次屬性：${result.secondary}`;
     document.getElementById('result-desc').textContent = result.desc;
+    
+    if (result.image && imgElement && imgContainer) {
+      imgElement.src = result.image;
+      imgContainer.style.display = 'block';
+    } else if (imgContainer) {
+      imgContainer.style.display = 'none';
+    }
   }
 
   progressFill.style.width = '100%';
